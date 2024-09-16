@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.PCR"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddFactultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentActivity"
+            android:exported="false" />
+        <activity android:name=".Viewattendance_activity" />
+        <activity
+            android:name=".Login_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".take_attendance" />
+        <activity android:name=".Faculty_Activity" />
+        <activity
+            android:name=".Admin_activity"
+            android:label="@string/title_activity_admin_activity">
+
+            <!-- android:theme="@style/Theme.ParentCommunicationRegistar_App.NoActionBar" -->
+
+        </activity>
+    </application>
+
+</manifest>

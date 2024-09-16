@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_add_factulty.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_add_factulty.xml"
+    },
+    {
+        "merged": "com.example.parentcommunicationregistar_app-mergeDebugResources-45:/layout/activity_login_activity.xml",
+        "source": "com.example.parentcommunicationregistar_app-main-48:/layout/activity_login_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_student.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\attendence_dialog.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\attendence_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_add_student.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_add_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_login_activity.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_login_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_takeattendance.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_takeattendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_admin_activity.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_admin_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\content_main.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_viewattendance_activity.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_viewattendance_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_admin_faculty.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_admin_faculty.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\student_card.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\student_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_faculty.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_faculty.xml"
+    }
+]
