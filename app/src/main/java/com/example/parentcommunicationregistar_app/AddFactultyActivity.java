@@ -134,6 +134,8 @@ public class AddFactultyActivity extends AppCompatActivity implements Validator.
             @Override
             public void onClick(View v) {
                 validator.validate();
+                Intent intent=new Intent(AddFactultyActivity.this,Admin_activity.class);
+                startActivity(intent);
 
             }
         });

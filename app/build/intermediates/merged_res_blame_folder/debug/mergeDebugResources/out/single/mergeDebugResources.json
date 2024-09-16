@@ -24,12 +24,12 @@
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\drawable_ic_baseline_person_add_24.xml.flat",
-        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\drawable\\ic_baseline_person_add_24.xml"
-    },
-    {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\drawable_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\drawable_ic_baseline_person_add_24.xml.flat",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\drawable\\ic_baseline_person_add_24.xml"
     },
     {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\drawable_custom_btn.xml.flat",
@@ -204,10 +204,6 @@
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\mipmap-hdpi\\ic_group.png"
     },
     {
-        "merged": "com.example.parentcommunicationregistar_app-debug-46:/layout_student_card_with_call.xml.flat",
-        "source": "com.example.parentcommunicationregistar_app-main-48:/layout/student_card_with_call.xml"
-    },
-    {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -270,6 +266,10 @@
     {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\layout_activity_add_student.xml.flat",
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_add_student.xml"
+    },
+    {
+        "merged": "com.example.parentcommunicationregistar_app-debug-46:/layout_activity_login_activity.xml.flat",
+        "source": "com.example.parentcommunicationregistar_app-main-48:/layout/activity_login_activity.xml"
     },
     {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-debug-46:\\mipmap-hdpi_ic_reg.png.flat",

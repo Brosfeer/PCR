@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_admin_activity.xml",
-        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_admin_activity.xml"
-    },
-    {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_admin_faculty.xml",
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_admin_faculty.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_admin_activity.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_admin_activity.xml"
     },
     {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\attendence_dialog.xml",
@@ -32,6 +32,10 @@
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\student_card.xml"
     },
     {
+        "merged": "com.example.parentcommunicationregistar_app-mergeDebugResources-45:/layout/activity_login_activity.xml",
+        "source": "com.example.parentcommunicationregistar_app-main-48:/layout/activity_login_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\activity_student.xml",
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\activity_student.xml"
     },
@@ -50,10 +54,6 @@
     {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\student_card_with_call.xml",
         "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-main-48:\\layout\\student_card_with_call.xml"
-    },
-    {
-        "merged": "com.example.parentcommunicationregistar_app-mergeDebugResources-45:/layout/student_card_with_call.xml",
-        "source": "com.example.parentcommunicationregistar_app-main-48:/layout/student_card_with_call.xml"
     },
     {
         "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\8.7\\com.example.parentcommunicationregistar_app-mergeDebugResources-45:\\layout\\app_bar_main.xml",
