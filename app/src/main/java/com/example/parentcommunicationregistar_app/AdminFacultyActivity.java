@@ -65,11 +65,7 @@ public class AdminFacultyActivity extends AppCompatActivity {
                 Intent intent = new Intent(AdminFacultyActivity.this, AddFactultyActivity.class);
                 startActivity(intent);
 
-                addfaculty_Fragment fragment=new addfaculty_Fragment();
-                FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.replace(R.id.nav_host_fragment,fragment);
-                transaction.addToBackStack(null);
-                transaction.commit();
+
             }
         });
 

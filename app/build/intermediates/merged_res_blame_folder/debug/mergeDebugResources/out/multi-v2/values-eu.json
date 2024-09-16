@@ -4,7 +4,7 @@
             "outputFile": "com.example.parentcommunicationregistar_app-mergeDebugResources-44:/values-eu/values-eu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\59b5040d74ab6cfdfb2816fcf6ae4ead\\transformed\\core-1.13.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\59b5040d74ab6cfdfb2816fcf6ae4ead\\transformed\\core-1.13.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\02c54cfc14bbc9bf7821b312cd938570\\transformed\\appcompat-1.7.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\8f0333bf7b00f9b7cf56ff612181f9e1\\transformed\\navigation-ui-2.7.7\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,159",
+                        "endColumns": "103,126",
+                        "endOffsets": "154,281"
+                    },
+                    "to": {
+                        "startLines": "111,112",
+                        "startColumns": "4,4",
+                        "startOffsets": "9590,9694",
+                        "endColumns": "103,126",
+                        "endOffsets": "9689,9816"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\02c54cfc14bbc9bf7821b312cd938570\\transformed\\appcompat-1.7.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\d8a6327c7b6951f0d5bb12b988e27e26\\transformed\\material-1.12.0\\res\\values-eu\\values-eu.xml",
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\d8a6327c7b6951f0d5bb12b988e27e26\\transformed\\material-1.12.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,23 +71,6 @@
                         "endLines": "5,33,34,35,36,37,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,113,115,116,117",
                         "endColumns": "12,106,104,79,106,99,97,114,82,65,66,98,67,60,87,62,65,63,70,62,53,108,58,62,53,73,124,89,77,88,82,79,144,82,81,137,90,82,51,52,65,70,79,70,79,77,77,72,74,106,86,86,90,92,71,75,91,50,81,65,83,85,61,63,62,67,106,108,95,104,55,56,82,84,76,76",
                         "endOffsets": "320,3172,3277,3357,3464,3564,4393,4508,4591,4657,4724,4823,4891,4952,5040,5103,5169,5233,5304,5367,5421,5530,5589,5652,5706,5780,5905,5995,6073,6162,6245,6325,6470,6553,6635,6773,6864,6947,6999,7052,7118,7189,7269,7340,7420,7498,7576,7649,7724,7831,7918,8005,8096,8189,8261,8337,8429,8480,8562,8628,8712,8798,8860,8924,8987,9055,9162,9271,9367,9472,9528,9585,9899,10067,10144,10221"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\8f0333bf7b00f9b7cf56ff612181f9e1\\transformed\\navigation-ui-2.7.7\\res\\values-eu\\values-eu.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,159",
-                        "endColumns": "103,126",
-                        "endOffsets": "154,281"
-                    },
-                    "to": {
-                        "startLines": "111,112",
-                        "startColumns": "4,4",
-                        "startOffsets": "9590,9694",
-                        "endColumns": "103,126",
-                        "endOffsets": "9689,9816"
                     }
                 }
             ]

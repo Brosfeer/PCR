@@ -14,7 +14,7 @@
         android:layout_height="140dp"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
-        android:src="@drawable/studentcenter" />
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/title"

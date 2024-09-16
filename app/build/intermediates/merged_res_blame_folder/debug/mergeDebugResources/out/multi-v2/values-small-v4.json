@@ -4,7 +4,7 @@
             "outputFile": "com.example.parentcommunicationregistar_app-mergeDebugResources-44:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\d8a6327c7b6951f0d5bb12b988e27e26\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\d8a6327c7b6951f0d5bb12b988e27e26\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

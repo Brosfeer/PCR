@@ -1,57 +1,65 @@
 package com.example.parentcommunicationregistar_app;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
-import com.example.parentcommunicationregistar_app.bean.ApplicationContext;
 import com.example.parentcommunicationregistar_app.bean.AttendanceBean;
-import com.example.parentcommunicationregistar_app.bean.StudentBean;
 import com.example.parentcommunicationregistar_app.db.DBAdapter;
 
 import java.util.ArrayList;
 
 public class Viewattendance_activity extends AppCompatActivity {
 
-    ArrayList<AttendanceBean> attendanceBeanList;
-    private ListView listView ;
-    private ArrayAdapter<String> listAdapter;
-    DBAdapter dbAdapter = new DBAdapter(this);
+    public static final int REQUEST_CALL_PERMISSION = 1;
+    private ListView listView;
+    private AttendanceAdapter attendanceAdapter;
+    private ArrayList<AttendanceBean> attendanceBeanList;
+    private DBAdapter dbAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewattendance_activity);
-        listView=(ListView)findViewById(R.id.listview);
-        final ArrayList<String> attendanceList = new ArrayList<String>();
-        attendanceList.add("Id   | StudentName      | Status");
 
-        attendanceBeanList=dbAdapter.getAllAttendanceByStudent();
+        listView = findViewById(R.id.listview);
+        dbAdapter = new DBAdapter(this);
+        attendanceBeanList = dbAdapter.getAllAttendanceByStudent();
 
-        for(AttendanceBean attendanceBean : attendanceBeanList)
-        {
-            String users;
-            String status = "";
-                StudentBean studentBean =dbAdapter.getStudentById(attendanceBean.getAttendance_student_id());
-                if(attendanceBean.getAttendance_status().equals("P"))
-                {
-                  status="Present";
-                }
-                else if(attendanceBean.getAttendance_status().equals("A"))
-                {
-                    status="Absent";
-                }
-
-                users = attendanceBean.getAttendance_student_id()+".  "+studentBean.getStudent_name()+","+studentBean.getStudent_class()+"         "+status;
-
-            attendanceList.add(users);
-            Log.d("users: ", users);
-
+        // Check and request permission before setting up the adapter
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL_PERMISSION);
+        } else {
+            setupAdapter();
         }
+    }
 
-        listAdapter = new ArrayAdapter<String>(this, R.layout.student_card, R.id.nametext, attendanceList);
-        listView.setAdapter( listAdapter );
+    private void setupAdapter() {
+        attendanceAdapter = new AttendanceAdapter(this, attendanceBeanList);
+        listView.setAdapter(attendanceAdapter);
+    }
+
+    // Handle the result of the permission request
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if (requestCode == REQUEST_CALL_PERMISSION) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permission granted, setup the adapter
+                setupAdapter();
+            } else {
+                // Permission denied, show a message or handle accordingly
+                Toast.makeText(this, "Permission denied for phone calls", Toast.LENGTH_SHORT).show();
+                setupAdapter(); // You can still set up the adapter, but without calling functionality
+            }
+        }
     }
 }

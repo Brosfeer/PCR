@@ -3158,6 +3158,7 @@ drawable ic_photo_camera_black_48dp
 drawable ic_search_black_24
 drawable ic_user
 drawable indeterminate_static
+drawable logo
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3365,6 +3366,8 @@ id bounceStart
 id btn_login
 id btn_save
 id buttonPanel
+id button_call
+id button_sms
 id cache_measures
 id callMeasure
 id cancel_button
@@ -4055,6 +4058,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout student_card
+layout student_card_with_call
 layout support_simple_spinner_dropdown_item
 layout ucrop_activity_photobox
 layout ucrop_aspect_ratio

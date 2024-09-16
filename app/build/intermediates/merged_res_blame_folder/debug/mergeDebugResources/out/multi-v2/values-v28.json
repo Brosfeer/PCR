@@ -4,7 +4,7 @@
             "outputFile": "com.example.parentcommunicationregistar_app-mergeDebugResources-44:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\02c54cfc14bbc9bf7821b312cd938570\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\02c54cfc14bbc9bf7821b312cd938570\\transformed\\appcompat-1.7.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\wrapper\\dists\\gradle-8.7-all\\caches\\transforms-4\\d8a6327c7b6951f0d5bb12b988e27e26\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-4\\d8a6327c7b6951f0d5bb12b988e27e26\\transformed\\material-1.12.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
